@@ -1,0 +1,38 @@
+#game-container {
+  width: 900px;
+  height: 600px;
+  border: 10px solid #808080;
+  background: lightgray;
+  position: absolute;
+}
+
+#score {
+  position: absolute;
+  top: 20px;
+  left: 75%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  color: #000;
+}
+
+.apple {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.head {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+}
+
+.body {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+}
